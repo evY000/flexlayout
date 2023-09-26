@@ -18,10 +18,14 @@ background-color: rgb(104, 104, 228);
 box-shadow: 5px 10px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.card:hover{
+    background-color: rgb(255, 0, 0);
+    translate: 10px;
+    border-radius: 36px;
+}
 .card-img{
         height: 75%;
         width: 75%;
-
 }
 .card-title{
 font-size: 2.2rem;
