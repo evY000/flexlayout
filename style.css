@@ -5,7 +5,7 @@ body, html,
         margin: 0;
         padding: 0;
 }
-.card{
+.card,.Bron1,.Bron2,.Bron3,.Bron4,.Bron5{
 width: 21%;
 height: 35vh;
 display: flex;
@@ -18,10 +18,20 @@ background-color: rgb(104, 104, 228);
 box-shadow: 5px 10px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.card:hover{
-    background-color: rgb(255, 0, 0);
-    translate: 10px;
-    border-radius: 36px;
+.Bron1:hover{
+    background-color:rgb(32, 168, 91)
+}
+.Bron2:hover{
+    translate: 20px;
+}
+.Bron3:hover{
+    width: 50%;
+}
+.Bron4:hover{
+    margin-top: 30px;
+}
+.Bron5:hover{
+    rotate: 30deg;
 }
 .card-img{
         height: 75%;
@@ -44,3 +54,12 @@ margin-top: 10;
 body{
     background-color:cornflowerblue
 }
+@keyframes animation {
+    from {background-color: cornflowerblue;}
+    to {background-color: rgb(252, 252, 149);}
+}
+  body {
+    background-color:rgb(252, 252, 149);
+    animation-name: animation;
+    animation-duration:20s;
+  }
