@@ -63,3 +63,18 @@ body{
     animation-name: animation;
     animation-duration:20s;
   }
+@media screen and (min-width:414px) {
+    .card,.Bron1,.Bron2,.Bron3,.Bron4,.Bron5{
+    width: 100%;
+}
+}
+@media screen and (max-width:200px) {
+    .card,.Bron1,.Bron2,.Bron3,.Bron4,.Bron5{
+    width: 40%;
+}
+}
+@media screen and (min-width:821px) {
+    .card,.Bron1,.Bron2,.Bron3,.Bron4,.Bron5{
+    width: 25%;
+}
+}
